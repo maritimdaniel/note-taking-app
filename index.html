@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>note-taker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="app-container">
+        <h1>Note Taker</h1>
+        <h2>Add A New Note:</h2>
+        <form>
+            <label for="note" class="note-label">Note:</label>
+            <textarea class="textarea" placeholder="write your note here..."></textarea>
+        </form>
+        <button class="submit-btn" type="submit">Add Note</button>
+        <div class="check-items">No items added yet!</div>
+        <div class="output-container">
+            <!-- <div>
+                <h3>Note 1</h3>
+                <p class="output-p"></p>
+                <button class="output-btn">View Details</button>
+            </div> -->
+            <!-- <div>
+                <h3>Note 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum molestiae enim recusandae, fugiat maxime incidunt laudantium sit reiciendis voluptate optio, id iste esse voluptas quod tempora ipsam molestias beatae.</p>
+                <button class="modal-btn">View Details</button>
+            </div>
+            <div>
+                <h3>Note 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum molestiae enim recusandae, fugiat maxime incidunt laudantium sit reiciendis voluptate optio, id iste esse voluptas quod tempora ipsam molestias beatae.</p>
+                <button class="modal-btn">View Details</button>
+            </div> -->
+        </div>
+        <div class="modal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-body">
+                <button class="modal-btn"><i class="fas fa-times"></i></button>
+                <p class="modal-p">hello world</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
